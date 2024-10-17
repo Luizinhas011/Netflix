@@ -3,36 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Streaming Alternativo</title>
+    <title>VideoHub - YouTubers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navbar">
-        <h1>MyStream</h1>
+    <header>
+        <h1>VideoHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#cocielo">Cocielo</a></li>
+                <li><a href="#marimaria">Mari Maria</a></li>
+                <li><a href="#fabisantina">Fabi Santina</a></li>
+                <li><a href="#virginia">Virgínia Fonseca</a></li>
+                <li><a href="#tata">Tata</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="content">
-        <h2>Descubra Novos Vídeos</h2>
-        <div class="grid">
-            <div class="video-card">
-                <iframe width="100%" height="170" src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
-                <p>Título do Vídeo 1</p>
+    <main>
+        <section id="cocielo" class="youtuber-section">
+            <h2>Cocielo</h2>
+            <div class="video-grid">
+                <!-- Exemplo de vídeo -->
+                <div class="video-item">
+                    <img src="thumbnail_cocielo.jpg" alt="Cocielo Video 1">
+                    <h3>Vídeo 1</h3>
+                </div>
+                <!-- Adicione mais vídeos aqui -->
             </div>
+        </section>
 
-            <div class="video-card">
-                <iframe width="100%" height="170" src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
-                <p>Título do Vídeo 2</p>
+        <!-- Repita a seção para outros YouTubers -->
+        <!-- Mari Maria -->
+        <section id="marimaria" class="youtuber-section">
+            <h2>Mari Maria</h2>
+            <div class="video-grid">
+                <!-- Exemplo de vídeo -->
+                <div class="video-item">
+                    <img src="thumbnail_marimaria.jpg" alt="Mari Maria Video 1">
+                    <h3>Vídeo 1</h3>
+                </div>
             </div>
+        </section>
 
-            <div class="video-card">
-                <iframe width="100%" height="170" src="https://www.youtube.com/embed/VIDEO_ID3" frameborder="0" allowfullscreen></iframe>
-                <p>Título do Vídeo 3</p>
-            </div>
-        </div>
+        <!-- Continue para Fabi Santina, Virgínia e Tata -->
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2024 MyStream. Todos os direitos reservados.</p>
+    <footer>
+        <p>&copy; 2024 VideoHub. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
